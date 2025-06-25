@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner mv=new Scanner(System.in);
+        int a=mv.nextInt();
+        
+        System.out.println("Bird said"+":"+a);
+         System.out.println("Alice must go in path"+"-"+((a/10)+(a%10)));
+    }
+}
