@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        String firstWord = input.split(" ")[0];
+        System.out.println("May I know how to learn " + firstWord + "!!!...");
+    }
+}
