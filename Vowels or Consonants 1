@@ -1,0 +1,43 @@
+import java.io.*;
+
+import java.util.*;
+
+import java.text.*;
+
+import java.math.*;
+
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        char alphabet = sc.next().charAt(0);
+
+        if (alphabet == 'a' || alphabet == 'A' || alphabet == 'e' || alphabet == 'E' ||
+
+            alphabet == 'i' || alphabet == 'I' || alphabet == 'o' || alphabet == 'O' ||
+
+            alphabet == 'u' || alphabet == 'U') {
+
+            System.out.println("The Character " + alphabet + " is Vowel");
+
+        }
+
+        else if ((alphabet >= 'a' && alphabet <= 'z') || (alphabet >= 'A' && alphabet <= 'Z')) {
+
+            System.out.println("The Character " + alphabet + " is Consonant");
+
+        }
+
+        else {
+
+            System.out.println("Invalid Input");
+
+        }
+
+    }
+
+}
