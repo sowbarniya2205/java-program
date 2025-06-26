@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner scanner=new Scanner(System.in);
+        int num,sum=0;
+        do{
+            num=scanner.nextInt();
+            sum=sum+num;
+        }
+        while(num!=-1);
+        System.out.print(sum+1);
+        }
+    }
