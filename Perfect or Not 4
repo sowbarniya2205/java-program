@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();int sum=0;
+        if(num<0){ 
+            System.out.print("Invalid Input");
+            return;
+        }
+        for(int i=1;i<num; i++){   
+        if (num%i==0)
+        {
+            sum+=i;
+            }
+        }
+            if(sum==num){
+            System.out.printf("The Number " + (float) num + " is a Perfect Number.");
+            } else{
+            System.out.printf("The Number " + (float) num + " is a Not Perfect Number.");
+    }
+}
+}
