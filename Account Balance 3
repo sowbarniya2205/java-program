@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner (System.in);
+    int bal=sc.nextInt();
+    int opt=sc.nextInt();
+    switch (opt){
+        case 1:
+        int dep=sc.nextInt();
+        bal=bal+dep;
+            System.out.print(bal);
+            break;
+    
+        case 2:
+         int with=sc.nextInt();
+        if(with>bal){
+              System.out.print("Insufficient Balance");
+        }
+        else{
+            bal=bal-with;
+              System.out.print(bal);
+        }
+        break;
+        default:
+             System.out.print("Invalid Input");
+    }
+    }
+    
+    
+    
+    
+    }
