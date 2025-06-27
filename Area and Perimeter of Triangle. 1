@@ -1,0 +1,15 @@
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int ba = sc.nextInt();  
+        int he = sc.nextInt(); 
+        int a = sc.nextInt();
+        int b = sc.nextInt();  
+        int c = sc.nextInt();  
+        double area = 0.5 * ba * he;
+        double perimeter = a + b + c;
+        System.out.printf("Area of Triangle is %.2f\n", area);
+        System.out.printf("Perimeter of Triangle is %.2f\n", perimeter);
+    }
+}
