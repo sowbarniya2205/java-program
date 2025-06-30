@@ -1,0 +1,51 @@
+import java.util.*;
+
+class Solution {
+
+    public static void main(String args[])
+
+    { 
+
+        Scanner sc=new Scanner(System.in);
+
+        String str=sc.nextLine();
+
+        int vocount=0;
+
+          char ch[]=str.toCharArray();
+
+        for(int i=0;i<ch.length;i++){
+
+           
+
+            if(Character.isLetter(ch[i]) ){
+
+                
+
+                if(ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' ||
+
+                    ch[i] == 'A' || ch[i] == 'E'|| ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U'){
+
+                    
+
+                    vocount++;
+
+                       
+
+                }
+
+                
+
+            }
+
+        }
+
+            System.out.println(vocount);
+
+        
+
+        }
+
+      
+
+    }
