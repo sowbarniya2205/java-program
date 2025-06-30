@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine().toLowerCase();
+       String goal=sc.nextLine().toLowerCase();
+        int s1=s.length(),goal2=goal.length();
+        if(s1<1 ||goal2>100|| s1!=goal2){
+            System.out.println("false");
+    }else { 
+           String str=s+s;
+        System.out.println(str.contains(goal));
+        }
+}
+}
