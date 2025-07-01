@@ -13,31 +13,31 @@ public class Solution {
                 System.out.println("Integer is 0 and String is Zero");
                 break;
             case 1:
-                 System.out.println("One");
+                 System.out.println("Integer is 1 and String is One");
                 break;
             case 2:
-                System.out.println("Two");
+                System.out.println("Integer is 2 and String is Two");
                 break;
             case 3:
-                System.out.println("Three");
+                System.out.println("Integer is 3 and String is Three");
                 break;
             case 4:
-                System.out.println("Four");
+                System.out.println("Integer is 4 and String is Four");
                 break;
            case 5:
-               System.out.println("Five");
+               System.out.println("Integer is 5 and String is Five");
                 break;
            case 6:
-                System.out.println("Six");
+                System.out.println("Integer is 6 and String is Six");
                 break;
            case 7:
-                System.out.println("Seven");
+                System.out.println("Integer is 7 and String is Seven");
                 break;
             case 8:
-                System.out.println("Eight");
+                System.out.println("Integer is 8 and String is Eight");
                 break;
             case 9:
-                System.out.println("Nine");
+                System.out.println("Integer is 9 and String is Nine");
                 break;
            
             default:
@@ -45,4 +45,3 @@ public class Solution {
         }
     
     }
-}
