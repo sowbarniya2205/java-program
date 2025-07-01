@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static int count(String str,int index) {
+        if(index == str.length()){
+            return 0;
+            
+        }
+        char current=str.charAt(index);
+        if (Character.isDigit(current)){
+            return 1+ count(str,index+1);
+        }
+else{
+    return count(str,index+1);
+}
+    }
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        String input=scanner.nextLine();
+        int digitCount=count(input,0);
+        System.out.println("The Count the digits: " + digitCount);
+    }
+}
